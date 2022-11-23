@@ -1,0 +1,127 @@
+@media screen and (max-width: 992px) {
+/* MEDIA QUERIES */
+    header {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        margin: 0;
+    }
+    
+    #logo {
+        margin:25px 0px 0px 45px;
+    }
+
+    nav {
+        display: flex;
+        margin: 25px 0px 15px 0px;
+        width:100%;
+        text-align:center;
+    }
+    
+    .menu-item {
+        padding: 10px 51px;
+        border-bottom: 4px solid #F2F2F2;
+        width: 50%;
+    }
+    
+    .menu-item:hover {
+        border-top: none;
+        border-bottom: 4px solid #0065fc;
+        padding: 10px 51px;  
+    }
+
+    .search-French {
+        display:none;
+    }
+
+    .search-button {
+        display:block;
+        border-radius: 13px 13px 13px 13px;
+        background:#0065fc;
+        color: #ffff;
+        border-style: none;
+        font-weight: bold;
+        min-width: 50px;
+        font-size: 18px;
+        margin-left: -20px;
+    }
+
+    #page-hebergement {
+        flex-direction: column-reverse;
+        gap: 25px;  
+    }
+
+    main {
+        margin: 0;
+    }
+
+    .search,.filter,.info{
+        margin: 20px;
+    }
+
+    #page-activities{
+        margin: 0 12px;
+    }
+
+ 
+
+    .page_populars {
+        background-color: #F2F2F2;
+        border-radius: 0px;
+        width: 100%;
+        padding: 40px 12px 40px 12px;
+        /*padding: 40px 12px 0px 12px;*/
+        /**/
+
+    }
+
+    .hebergement_Marseille {
+        background-color: #ffff;
+        border-radius: 0px;
+        width: 100%;
+        padding:12px;
+    }
+
+    .card_hotel {
+        width: 100%;
+    }
+
+    .card_activities {
+        display:flex;
+        flex-direction: column; 
+        gap:30px;
+    }
+
+    .card_one, .card_group {
+        width: 100%;
+    }
+
+    .card_group {
+        gap: 30px;
+    }
+    
+    .card_one img, .card_group_1 img, .card_group_2 img {
+        height: 150px;
+    }
+
+    /*
+    .card_populars {
+        row-gap:0;
+    }*/
+
+    .card_hebergement_Marseille {
+        gap:25px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 20px;     
+      }
+  
+    footer h2 {
+          margin-bottom: 5px;   
+      }
+}
